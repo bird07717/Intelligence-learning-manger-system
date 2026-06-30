@@ -1,0 +1,11 @@
+[project]
+name = "intelligence-learning-manager"
+version = "0.1.0"
+description = "A learning project for data cleaning, MySQL modeling, and import workflows."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
